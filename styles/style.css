@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: rgb(156, 180, 137); */
+    background-color: #000000;
+    background-image: url('../img/bg.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+}
+
+.keskitetty{
+    text-align: center;
+}
+
+/* Header */
+header{
+    display: inline-block;
+    top: 0px;
+    background-color: rgb(156, 180, 137);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.yla {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 3px 2px 3px rgba(15, 15, 15, 0.2);
+}
+
+.vasen{
+    display: block;
+    height: 52px;
+    width: 25%;
+    border-top: 3px solid #131313;
+    border-right: 1px solid #131313;
+    position: fixed;
+    clear: both;
+    top: 60px;
+    border-radius: 0 8px 0 0;
+}
+
+.keski{
+    display: inline-block;
+    top: 60px;
+    background-color: #9cb489;
+    height: 60px;
+    position: fixed;
+    margin-left: 25%;
+    width: 50%;  
+    border-bottom: 3px solid #131313;
+    border-radius: 0 0 8px 8px;
+    -webkit-box-shadow: 0px 20px 10px 5px rgba(0,0,0,0.68); 
+    box-shadow: 0px 20px 10px 5px rgba(0,0,0,0.68);
+}
+
+.keskiSiivu{
+    display: block;
+    background-color: #9cb489;
+    top: 60px;
+    height: 3px;
+    width: 103%;
+    margin-left: -1px;
+    margin-right: 4px;
+}
+
+.oikea{
+    display: block;
+    height: 52px;
+    margin-left: 75%;
+    width: 25%;
+    border-top: 3px solid #131313;
+    border-left: 1px solid #131313;
+    float: right;
+    position: fixed;
+    clear: both;
+    top: 60px;
+    border-radius: 8px 0 0 0;
+}
+
+/* Logo teksti */
+.logoText1{
+    color: #2e2e2e;
+    text-shadow: 3px 2px 3px rgba(15, 15, 15, 0.2);
+    font-size: 3em;
+    font-family: 'Mansalva', cursive;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    font-size: 3em;
+}
+
+.tekstiKeskitetty{
+    text-align: center;
+}
+
+/* Navigaatio */
+
+a.nav-link {
+    color: #ffffff;
+}
+
+a.nav-link:hover {
+    color: #474747;
+    text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
+}
+
+.nav{
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    font-size: 1.3em;
+}
+
+/* Keskiosa indexissä */
+#main{
+    display:block;
+    margin-left: 5%;
+    padding: 25px;
+    width: 90%;
+    margin-top:160px;
+    min-height: 500px;
+    height: auto;
+    background-color: #303030;
+    border-radius: 8px;
+    border: 2px solid #000000;
+    -webkit-box-shadow: 0px 20px 10px 5px rgba(0,0,0,0.68); 
+    box-shadow: 0px 20px 10px 5px rgba(0,0,0,0.68);
+    margin-bottom: 100px;
+}
+
+/* Videot ja Galleria */
+
+.videoKeskitetty{
+    text-align: center;
+}
+
+/* Cards */
+
+.card{
+    position: unset;
+    min-width: 250px;
+    margin: auto;
+    margin-top: 15px;
+    color: #000000;
+    opacity: 1;
+    border: 2px solid #ffffff;
+}
+
+.list-group-item{
+    position: unset;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #9cb489;
+    height: 30px;
+    text-align: center;
+    bottom: 0;
+}
