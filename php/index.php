@@ -17,7 +17,7 @@ $page=isset($_GET['page'])?$_GET['page']:'main';
     <title>KHPP</title>
 </head>
 <body>
-
+    
     <!-- HEADER, NAVIGAATIO -->
 
     <header>
