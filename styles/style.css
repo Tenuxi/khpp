@@ -66,6 +66,7 @@ header{
 .keskiSiivu{
     display: block;
     background-color: #9cb489;
+    margin-top: 13px;
     top: 60px;
     height: 3px;
     width: 103%;
@@ -141,6 +142,10 @@ a.nav-link:hover {
 }
 
 /* Videot ja Galleria */
+.video{
+    width: 560px;
+    height: 315px;
+}
 
 .videoKeskitetty{
     text-align: center;
@@ -150,7 +155,7 @@ a.nav-link:hover {
 
 .card{
     position: unset;
-    min-width: 250px;
+    min-width: 220px;
     margin: auto;
     margin-top: 15px;
     color: #000000;
@@ -170,3 +175,55 @@ footer{
     text-align: center;
     bottom: 0;
 }
+
+/* Pienelle näytölle */
+@media only screen and (max-width: 720px) {
+    body {
+      background-color: #555555;
+      background-image: unset;
+    }
+    
+    header{
+        width: 100%;
+        font-size: 3vw;
+        box-shadow: 0px 10px 7px 5px rgba(0,0,0,0.68);
+    }
+
+    #main{
+        width: 100%;
+        margin-top: 85px;
+        margin-left: 0;
+        border-radius: unset;
+        border: unset;
+        border-top: #181818 solid 1px;
+        border-bottom: #181818 solid 1px;
+        box-shadow: 0px 10px 7px 5px rgba(0,0,0,0.68);
+    }
+
+    .vasen{
+        display: none;
+    }
+
+    .keskiSiivu{
+        display: none;
+    }
+
+    .keski{
+        display: none;
+    }
+
+    .oikea{
+        display: none;
+    }
+
+    .video{
+        width: 100%;
+        min-height: 300px;
+        height: auto;
+    }
+
+
+    footer{
+        width: 100%;
+    }
+  }
