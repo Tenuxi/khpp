@@ -7,7 +7,9 @@ body{
     /* background-color: rgb(156, 180, 137); */
     background-color: #000000;
     background-image: url('../img/bg.jpg');
-    background-position:center;
+    background-position:top;
+    background-size: auto;
+    background-size: 200%;
     background-repeat: no-repeat;
     font-family: 'Quicksand', sans-serif;
     color: #ffffff;
@@ -54,7 +56,7 @@ header{
     top: 60px;
     background-color: #9cb489;
     height: 60px;
-    position: fixed;
+    /* position: fixed; */
     margin-left: 25%;
     width: 50%;  
     border-bottom: 3px solid #131313;
@@ -124,6 +126,30 @@ a.nav-link:hover {
     font-size: 1.3em;
 }
 
+/* Dropdown */
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #555;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: #555; 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background: #666;}
+
+
+
 /* Keskiosa indexissä */
 #main{
     display:block;
@@ -165,6 +191,15 @@ a.nav-link:hover {
 
 .list-group-item{
     position: unset;
+}
+
+/* Koneen inffot */
+
+.koneenkuva{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border: transparent;
 }
 
 /* FOOTER */
@@ -224,6 +259,9 @@ footer{
 
 
     footer{
+        clear: both;
+        position: fixed;
+        bottom: 0;
         width: 100%;
     }
   }
