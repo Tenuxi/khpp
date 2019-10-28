@@ -267,6 +267,13 @@ footer{
         height: auto;
     }
 
+    .card{
+        flex: 100%;
+        padding: 0;
+        width: 100% !important;
+        max-width: none;
+    }
+
 
     footer{
         clear: both;
